@@ -4,11 +4,17 @@
 
 ## 環境構築
 
-1. ローカル環境にg++をインストールしてください。
+1. リポジトリのクローン
 
-2. VSCodeでルートディレクトリを開き、任意の.cppファイルを開いた状態で`Ctrl+Shift+B`を叩いてください。
+```bash
+git clone https://github.com/yach36/AtcoderContest.git
+```
 
-3. out/直下に生成されたプログラムを実行してください。
+2. ローカル環境にg++をインストール
+
+3. VSCodeでルートディレクトリを開き、任意の.cppファイルを開いた状態で`Ctrl+Shift+B`を叩く
+
+4. out/直下に生成されたプログラムを実行
 
 ```bash
 out/main
@@ -21,3 +27,5 @@ C++
 ## 参考資料
 
 https://zenn.dev/gnz/articles/361773e44fcc41
+
+https://zenn.dev/masaki_wk/articles/20220911-clang-format
