@@ -12,7 +12,7 @@
         "-O2",
         "-DONLINE_JUDGE",
         "-o",
-        "'${workspaceFolder}/out/main'",
+        "'${workspaceFolder}/out/${fileBasenameNoExtension}.out'",
         "'${file}'"
         // "-I${workspaceFolder}/ac-library",
       ],

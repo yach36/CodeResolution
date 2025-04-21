@@ -16,8 +16,10 @@ git clone git@github.com:yach36/CodeResolution.git
 
 4. out/直下に生成されたプログラムを実行
 
+(例) a.cpp をコンパイル後、入力値を与えて実行する場合
+
 ```bash
-out/main
+out/a.out < inputs/a1
 ```
 
 ## 使用言語
